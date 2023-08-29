@@ -1,8 +1,46 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Speech To Text
 
-# Getting Started
+Welcome to **Speech To Text**! This guide will walk you through setting up and getting started with the app. Make sure you have the required environment and dependencies in place to smoothly run the application.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Getting Started
+
+Before you dive into using **Speech To Text**, follow the steps below to ensure a seamless setup:
+
+1. **React Native Environment Setup**: If you haven't already, make sure you've completed the [React Native Environment Setup](https://reactnative.dev/docs/environment-setup) instructions. This will ensure you have the necessary tools and dependencies to work with React Native.
+
+2. **Installation**: To get started, clone this repository to your local machine and navigate to the project directory:
+
+   ```bash
+   git clone https://github.com/joblesspoet/react-native-openai-speech-totext.git
+   cd react-native-openai-speech-totext
+   ```
+
+### Dependencies
+
+Your Application Name relies on the following components:
+
+- [React Native Voice](https://github.com/react-native-voice/voice): This package empowers the application with voice-to-text functionality, allowing users to convert spoken words into written text.
+
+- [OpenAI](https://openai.com/): The application harnesses the capabilities of OpenAI for advanced text chat completion and image generation. To unlock these features, you'll need an OpenAI API Key.
+
+### OpenAI API Key
+
+To enable text chat completion and image generation functionalities, you'll need to obtain an OpenAI API Key. If you haven't already, sign up at [OpenAI](https://openai.com/) to acquire your API Key. Once obtained, you can seamlessly integrate these capabilities into your application.
+
+### Compatibility
+
+Your Application Name has undergone rigorous testing on the Android platform, ensuring a smooth and robust experience. It's important to note that while the Android setup is straightforward, configuring the [React Native Voice](https://github.com/react-native-voice/voice) package for iOS might require additional steps. Rest assured, the provided instructions will guide you through any platform-specific configuration requirements.
+
+### Get Started
+
+Feel free to delve into the application, experiment with its features, and customize it to your preferences. We're thrilled to welcome you aboard and eagerly anticipate your contributions and valuable feedback.
+
+## Screen Shots
+
+![Screenshot](./screenshots/home.png)
+![Screenshot](./screenshots/features.png)
+![Screenshot](./screenshots/assistant.png)
+![Screenshot](./screenshots/output.png)
 
 ## Step 1: Start the Metro Server
 
@@ -41,28 +79,6 @@ npm run ios
 # OR using Yarn
 yarn ios
 ```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
 
 # Troubleshooting
 
